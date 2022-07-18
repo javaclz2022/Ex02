@@ -91,3 +91,25 @@ print(a)
 a.pop()    #마지막을 지워라
 print(a)
 
+print("=리스트 함수=================================")
+b = [1, 123, 1000, 12, 1000]
+print(b)
+
+#b[5:] = [1,2,3]
+#b.insert(5, [1,2,3])
+#print(b[5][1])
+
+#카운트
+print(len(b))
+print(b.count(1000))
+
+#뒤집기
+b.reverse()
+print(b)
+
+#정렬
+b.sort()
+print(b)
+
+#index
+print(b.index(1000))  #여러개일때는 첫번째
